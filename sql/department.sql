@@ -7,7 +7,9 @@ select * from college;
 select * from college
 UNION 
 select * from department;
-where deptname LIKE '_h';
+where deptname LIKE '_r';
 select * from department
 where fees<=40000
 order by deptname;
+select * from department
+where staff like '_e'%;
