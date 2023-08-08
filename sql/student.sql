@@ -12,3 +12,4 @@ create table studentfees(studentid int primary key,studentname varchar(44),paid_
 insert into studentfees(studentid,studentname,paid_amount,balance_amount) values (2,'anu',40000,10000),
 (3,'priya',45000,50000);
 select * from studentfees;
+select subject from studentfees;
