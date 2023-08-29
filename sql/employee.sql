@@ -12,3 +12,4 @@ create table empbonus(empid int primary key,empname varchar(44),emp_bonus int);
 insert into empbonus(empid,empname,emp_bonus) values (1,'mithun',3000),
 (2,'mohan',4000);
 select * from empbonus;
+select * from empsalary
